@@ -1,0 +1,36 @@
+
+.menu-nav-item{
+    display: inline;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 50px;
+    color:red;
+    font-size: 25px;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 990;
+    background: red;
+}
+/*при наведении */
+.menu-nav-item:hover{
+    border-bottom:2px solid white;
+}
+
+
+
+.name{
+    display: inline;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 40px;
+    color: brown;
+    margin-right:350px;
+    font-size: 25px;
+}
+
+.bg-light{
+    background-color: red;
+}
+

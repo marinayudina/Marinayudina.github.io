@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=K2D');
+@import url('https://fonts.googleapis.com/css?family=K2D|Roboto+Slab');
+body{
+    margin: 0;
+    padding: 0;
+    background: cornsilk;
+    font-size: 25px;
+}
+
+.letterItem{
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 45px;
+    margin-top: 50px;
+    transition: font-size 0.5s ease-in;
+
+}
+
+.letterItem:hover{
+    font-size: 55px;
+}
+
+.letterItem > a{
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    color: black;
+    transition: color 0.5s ease-in, border-bottom 0.5s ease-in;
+}
+
+.letterItem > a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.blog{
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+
+@media screen and (max-width:850px)
+{
+    .letterItem{
+        margin-top:60px;}
+    .botton > a{
+        margin: auto;
+    }
+        
+}

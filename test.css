@@ -1,0 +1,71 @@
+body{
+    background: cornsilk;
+}
+#res{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#true_answers{
+    font-size: 30px;
+    
+}
+.button_check{
+   
+
+    border-radius: 10px;
+     border: 1px  solid black;
+    text-decoration: none;
+     display: block;
+     text-align: center;
+     width: 300px;
+    line-height:40px;
+    background-color:white;
+    text-transform: uppercase;
+        color:black;
+        transition: background-color 0.5s ease-in;
+}
+
+
+.button_check:hover{
+    
+    background-color:#df8dc7;
+    color:black;
+}
+.button_trueanswers{
+    margin-top: 20px;
+    border-radius: 10px;
+     border: 1px  solid black;
+    text-decoration: none;
+     display: block;
+     text-align: center;
+     width: 300px;
+    line-height:40px;
+    background-color:white;
+    text-transform: uppercase;
+        color:black;
+        transition: background-color 0.5s ease-in;
+}
+.button_trueanswers:hover{
+    
+    background-color:#df8dc7;
+    color:black;
+}
+.button_return_main>a{
+    margin-top: 20px;
+    border-radius: 10px;
+     border: 1px  solid black;
+    text-decoration: none;
+     display: block;
+     text-align: center;
+     width: 300px;
+    line-height:40px;
+    background-color:white;
+    text-transform: uppercase;
+        color:black;
+        transition: background-color 0.5s ease-in;
+}
+.button_return_main>a:hover{
+    
+    background-color:#df8dc7;
+    color:black;
+}
